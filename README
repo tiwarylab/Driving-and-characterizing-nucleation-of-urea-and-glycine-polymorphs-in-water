@@ -1,0 +1,9 @@
+PLUMED input files used for the metadynamics simulations for the manuscript titled ``Driving and characterizing nucleation of urea and glycine polymorphs in water,"" submitted for review at PNAS as of 1 November 2022. A pre-print of the paper can current be found on the arXiv at https://arxiv.org/abs/2210.04822.
+
+PairEntropy.cpp is taken from https://github.com/PabloPiaggi/PRL-2017-PairEntropy, and the OP was originally developed in Piaggi. Valsson, and Parrinello, ``Enhancing entropy and enthalpy fluctuations to drive crystallization in atomistic systems," Phys. Rev. Lett, 2017.
+
+PairOrientionalEntropy.cpp is taken from https://github.com/PabloPiaggi/PNAS-2018-Polymorphism, and the OP was originally devloped in Piaggi and Parrinello ``Predicting polymorphism in molecular crystals using orientaional entropy," PNAS, 2018.
+
+The other two C++ files, ManyAngle.cpp and Interface.cpp, were developed within the Tiwary group, mainly by Sun-Ting Tsai.
+
+ureaTIP3P300K.gro and glySPCE300K.gro contain the starting positions and velocities of the urea and glycine simulations, respectively, reported in the manuscript. The associated topology files for running the simulations in GROMACS are urea.top and glycine.top for urea and glycine, respectively; inputParameters.mdp gives the simulation parameters for both the urea and glycine simulations.
